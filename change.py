@@ -3,3 +3,10 @@ def change():
     y lo separa en pesos (parte entera) y centavos.
     """
     pass
+    gasto = float(input("Ingrese el Gasto: "))
+    ingreso = float(input ("Ingrese el ingreso: "))
+    vueltoentero =int(ingreso - gasto)
+    vueltodecimal = (ingreso - gasto- vueltoentero)
+    print (f"Vuelto\n")
+    print (f"Pesos:\n{vueltoentero}")
+    print (f"Centavos:\n{vueltodecimal}")
