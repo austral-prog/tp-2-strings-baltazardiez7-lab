@@ -9,4 +9,4 @@ def change():
     vueltodecimal = int((ingreso - gasto- vueltoentero)*100)
     print (f"Vuelto\n")
     print (f"Pesos:\n{vueltoentero}")
-    print (f"Centavos:\n{vueltodecimal}")}")
+    print (f"Centavos:\n{vueltodecimal}")
