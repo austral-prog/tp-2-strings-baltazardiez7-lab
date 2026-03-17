@@ -10,3 +10,4 @@ def check_vowels():
     print(f"Contiene i: {"i" in nombremin}")
     print(f"Contiene o: {"o" in nombremin}")
     print(f"Contiene u: {"u" in nombremin}")
+    
