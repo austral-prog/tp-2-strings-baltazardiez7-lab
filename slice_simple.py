@@ -1,8 +1,7 @@
-def slice_simple():
-    """Dado el texto 'Awesome', imprime distintos substrings
-    usando slicing y lower().
+def slice_advanced():
+    """Lee un texto e imprime los caracteres desde la posición 4
+    en adelante, tomando uno de cada dos (paso 2).
     """
-    texto = "Awesome"
-    print (texto.lower()[0:3])
-    print (texto[2:5])
-    print (texto.lower())
+    pass
+    text=input("Ingrese un texto: ")
+    print (text[4::2])
