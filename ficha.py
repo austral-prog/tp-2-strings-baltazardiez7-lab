@@ -27,6 +27,7 @@ def ficha():
     pass
     nombremal =input ("Introduce tu nombre: ")
     nombre= nombremal.strip()
+    nombrelower= nombre.lower()
     email= input ("Introduce tu email: ")
     nota1 = int(input ("Introduce una nota: "))
     nota2 = int(input ("Introduce otra nota: "))
@@ -47,7 +48,7 @@ def ficha():
     arroba= int(email.find("@"))
     print (f"Dominio: {email.lower()[arroba+1:]}")
     print (f"Nombre para archivo: {name.title()}_{surname.title()}")
-    print (f"Cantidad de a: {nombre.count('a')}")
+    print (f"Cantidad de a: {nombrelower.count('a')}")
     codigo=nombre[::-1]
     print (f"Codigo secreto: {codigo.upper()}")
     print (f"Nota 1: {nota1}")
@@ -57,4 +58,5 @@ def ficha():
     print (f"Promedio: {(nota1+nota2+nota3)/3}")
     print (f"Promedio entero: {int((nota1+nota2+nota3)/3)}")
     print ("========================")
+    
     
