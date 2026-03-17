@@ -4,10 +4,10 @@ def check_vowels():
     """
     pass
     nombre = input("Ingrese el nombre: ")
-    nombremin =nombre.lower()
-    print (f"Contiene a: {"a" in nombremin}")
-    print(f"Contiene e: {"e" in nombremin}")
-    print(f"Contiene i: {"i" in nombremin}")
-    print(f"Contiene o: {"o" in nombremin}")
-    print(f"Contiene u: {"u" in nombremin}")
+    nombremi =nombre.lower()
+    print (f"Contiene a: {"a" in nombremi}")
+    print(f"Contiene e: {"e" in nombremi}")
+    print(f"Contiene i: {"i" in nombremi}")
+    print(f"Contiene o: {"o" in nombremi}")
+    print(f"Contiene u: {"u" in nombremi}")
     
