@@ -4,7 +4,7 @@ def string_info():
     """
     palabra = "Programacion"
     print (f"Palabra: {palabra}")
-    print (f"Longitud {len(palabra)}")
+    print (f"Longitud: {len(palabra)}")
     print (f"Primera Letra: {palabra[0]}")
     print (f"Ultima Letra: {palabra[-1]}")
     print (f"Repetida: {palabra*3}")
