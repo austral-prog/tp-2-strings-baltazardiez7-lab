@@ -7,6 +7,7 @@ def change():
     ingreso = float(input ("Dinero recibido\n"))
     vueltoentero =int(ingreso - gasto)
     vueltodecimal = int((ingreso - gasto- vueltoentero)*100)
+    print (" ")
     print (f"Vuelto\n")
     print (f"Pesos:\n{vueltoentero}")
     print (f"Centavos:\n{vueltodecimal}")
