@@ -56,4 +56,5 @@ def ficha():
     print (f"Suma: {int(nota1+nota2+nota3)}")
     print (f"Promedio: {(nota1+nota2+nota3)/3}")
     print (f"Promedio entero: {int((nota1+nota2+nota3)/3)}")
-    print ("========================")pass
+    print ("========================")
+    
