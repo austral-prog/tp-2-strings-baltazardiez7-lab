@@ -3,3 +3,10 @@ def check_vowels():
     sin distinguir mayúsculas de minúsculas.
     """
     pass
+    nombre = input("Ingrese el nombre: ")
+    nombremin =nombre.lower()
+    print (f"Contiene a: {"a" in nombremin}")
+    print(f"Contiene e: {"e" in nombremin}")
+    print(f"Contiene i: {"i" in nombremin}")
+    print(f"Contiene o: {"o" in nombremin}")
+    print(f"Contiene u: {"u" in nombremin}")
